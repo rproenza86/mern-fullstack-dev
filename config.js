@@ -9,7 +9,7 @@ export const logStars = function(message) {
 };
 
 export default {
-    mongodbUri: 'mongodb://rproenza:gaxhi4-cotbuh-hucnIj@cluster0-shard-00-00-6c54t.mongodb.net:27017/contests?ssl=true&authSource=admin',
+    mongodbUri: 'mongodb://localhost:27017/contests',
     port: env.PORT || 8080,
     host: env.HOST || '0.0.0.0',
     get serverUrl() {
