@@ -1,4 +1,4 @@
-# mern-fullstack-dev
+# [mern-fullstack-dev](https://fast-shelf-17431.herokuapp.com)
 
 Fullstack JavaScript Development Intermediate Training using MongoDB, Express, React and Node.js
 
@@ -22,3 +22,4 @@ Emphasis on functional methods and open-source tools.
 - Working with data in MongoDB
 - Isomorphic rendering on the server
 - Front-end routing and back-end routing
+- Web app deployment to Heroku platform
