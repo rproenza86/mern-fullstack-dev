@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Learning Fullstack JavaScript Development: MongoDB, Node.js, React.js",
   "main": "index.js",
+  "engines": {
+    "node": "10.x"
+  },
   "scripts": {
     "load_data": "babel-node loadTestData.js",
     "update_data": "babel-node updateTestData.js",
@@ -29,9 +32,8 @@
     "mongodb": "^2.2.10",
     "node-sass-middleware": "^0.9.8",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
-  },
-  "devDependencies": {
+    "react-dom": "^15.3.2",
+    "shelljs": "^0.8.3",
     "babel-cli": "^6.16.0",
     "babel-eslint": "^7.0.0",
     "babel-loader": "^6.2.5",
