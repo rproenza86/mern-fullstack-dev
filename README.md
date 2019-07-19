@@ -23,3 +23,4 @@ Emphasis on functional methods and open-source tools.
 - Isomorphic rendering on the server
 - Front-end routing and back-end routing
 - Web app deployment to Heroku platform
+- Server side rendering
