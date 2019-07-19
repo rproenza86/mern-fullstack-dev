@@ -11,7 +11,8 @@
     "update_data": "babel-node updateTestData.js",
     "build": "webpack",
     "start": "nodemon --exec babel-node server.js --ignore public/",
-    "dev": "webpack -wd"
+    "deploy": "git push heroku master",
+    "open": "heroku open"
   },
   "repository": {
     "type": "git",
