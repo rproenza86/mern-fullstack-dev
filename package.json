@@ -1,9 +1,12 @@
 {
-  "name": "fulljs",
+  "name": "mern-fullstack-dev",
   "version": "1.0.0",
   "description": "Learning Fullstack JavaScript Development: MongoDB, Node.js, React.js",
   "main": "index.js",
   "scripts": {
+    "load_data": "babel-node loadTestData.js",
+    "update_data": "babel-node updateTestData.js",
+    "build": "webpack",
     "start": "nodemon --exec babel-node server.js --ignore public/",
     "dev": "webpack -wd"
   },
